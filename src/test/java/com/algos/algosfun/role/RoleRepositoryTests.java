@@ -39,4 +39,11 @@ public class RoleRepositoryTests {
         System.out.println(savedRole.toString());
         assertThat(savedRole.getId()).isGreaterThan(0);
     }
+    @Test
+    public void testCreateMemberRole(){
+        Role memberRole = new Role("Member",VIEW_ARTICLES + "," + POST_COMMENTS);
+        Role savedRole = roleRepo.save(memberRole);
+        System.out.println(savedRole.toString());
+        assertThat(savedRole.getId()).isGreaterThan(0);
+    }
 }
