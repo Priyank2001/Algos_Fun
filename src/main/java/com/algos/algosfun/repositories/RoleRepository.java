@@ -1,4 +1,4 @@
-package com.algos.algosfun.repository;
+package com.algos.algosfun.repositories;
 
 import com.algos.algosfun.model.Role;
 import org.springframework.data.jpa.repository.Query;

@@ -1,14 +1,11 @@
 package com.algos.algosfun.role;
 
 import com.algos.algosfun.model.Role;
-import com.algos.algosfun.repository.RoleRepository;
-import com.algos.algosfun.service.RoleService;
+import com.algos.algosfun.repositories.RoleRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

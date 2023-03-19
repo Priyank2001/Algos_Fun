@@ -1,7 +1,7 @@
 package com.algos.algosfun.service;
 
 import com.algos.algosfun.model.Role;
-import com.algos.algosfun.repository.RoleRepository;
+import com.algos.algosfun.repositories.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
